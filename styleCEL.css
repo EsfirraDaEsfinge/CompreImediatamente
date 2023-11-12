@@ -1,0 +1,172 @@
+/* layout */
+body {
+background:linear-gradient(180deg, #000 0%, #555 100%);
+min-height:99vh;
+display:block;
+}
+
+#top {
+height:7vh;
+background:radial-gradient(circle, rgba(102,34,34,1) 31%, rgba(31,22,33,1) 100%);
+display:flex;
+justify-content:center;
+border:1vh solid #912;
+}
+
+#left {
+min-height:4vh;
+background:linear-gradient(180deg, #4C505E 0%, #1F1621 100%);
+border-right:0.5vw solid #000;
+border-left:0.5vw solid #912;
+}
+
+#mid {
+padding:1vw;
+background:linear-gradient(0deg, #99c 0%, #fee 100%);
+}
+
+#right {
+min-height:20vh;
+background:linear-gradient(180deg, #4C505E 0%, #1F1621 100%);
+border-left:0.5vw solid #000;
+border-right:0.5vw solid #912;
+}
+
+
+/* produtos */
+
+#comidas {
+height:42vw;
+margin:0.5%;
+margin-bottom:-1vw;
+padding:0.2vw;
+background: linear-gradient(180deg, rgba(214,166,75,1) 0%,rgba(220,82,60,1) 35%,rgba(102,34,34,1) 85%);
+border-radius:2vw;
+border:0.3vw solid #dc523c;
+}
+
+#bebidas {
+height:42vw;
+margin:0.5%;
+padding:0.2vw;
+background: linear-gradient(180deg, rgba(214,166,75,1) 0%,rgba(220,82,60,1) 35%,rgba(102,34,34,1) 85%);
+border-radius:2vw;
+border:0.3vw solid #dc523c;
+}
+
+#preço {
+color:#0b4;
+margin-top:;
+}
+
+mark {
+color:#d00;
+text-decoration:line-through;
+font-style:italic;
+zoom:94%;
+background:none;
+}
+
+#quadrinho{
+width:40vw;
+height:18vw;
+margin-left:2%;
+float:left;
+border:0.3vw solid #912;
+background:radial-gradient(#eef 50%, #fea 100%);
+border-radius:5%;
+padding:1vw;
+}
+
+#quadrinho:hover{
+scale:103%;
+border:0.3vw solid #54f;
+background:radial-gradient(#fff 50%, #999 100%);
+}
+
+
+#fotografia {
+margin:0.4vw;
+height:16vw;
+width:16vw;
+border:0.3vw solid #1F1621;
+border-radius:4%;
+float:right;
+}
+
+
+/* textos */
+h1 {
+font-size:10vw;
+margin-top:3px;
+color:#D6a64B;
+}
+
+h2 {
+font-size:4vh;
+margin-bottom:-20px;
+margin-top:1vh;
+font-weight:900;
+text-decoration:underline;
+color:#111;
+}
+
+h3 {
+font-size:3vh;
+color:#D6a64B;
+padding:1vw;
+margin-bottom:2vh;
+margin-left:5vw;
+background:radial-gradient(circle, rgba(102,34,34,1) 31%, rgba(31,22,33,1) 100%);
+border-bottom-left-radius:40%;
+border-bottom-right-radius:40%;
+display:inline-block;
+border:0.2vw solid #dc523c;
+}
+
+
+p {
+font-size:4vw;
+font-weight:600;
+color:#000;
+margin-left:1vw;
+margin-top:0vw;
+margin-bottom:0vw;
+float:left;
+}
+
+#opciones {
+font-size:5.6vw;
+color:#fee;
+margin:1vw;
+}
+
+/* outras coisas */
+#img1 {
+height:40vw;
+width:80vw;
+border:2px groove #fff;
+margin:1vh;
+margin-top:4vh;
+}
+
+#img2 {
+height:7vw;
+width:8vw;
+border:2px groove #fff;
+margin:1vw;
+float:left;
+}
+
+.pagAtual {
+background:rgba(115,30,34,1);
+}
+
+.pexe {
+font-style:italic;
+zoom:85%;
+}
+
+.gordura {
+width:21vw;
+}
