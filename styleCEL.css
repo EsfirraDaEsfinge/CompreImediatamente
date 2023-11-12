@@ -16,7 +16,7 @@ border:1vh solid #912;
 #left {
 min-height:4vh;
 background:linear-gradient(180deg, #4C505E 0%, #1F1621 100%);
-border-right:0.5vw solid #000;
+border-right:0.5vw solid #912;
 border-left:0.5vw solid #912;
 }
 
@@ -28,7 +28,7 @@ background:linear-gradient(0deg, #99c 0%, #fee 100%);
 #right {
 min-height:20vh;
 background:linear-gradient(180deg, #4C505E 0%, #1F1621 100%);
-border-left:0.5vw solid #000;
+border-left:0.5vw solid #912;
 border-right:0.5vw solid #912;
 }
 
