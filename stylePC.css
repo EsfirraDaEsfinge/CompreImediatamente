@@ -88,7 +88,7 @@ border-radius:5%;
 
 #quadrinho:hover{
 scale:103%;
-border:0.3vw solid #f45;
+border:0.3vw solid #54f;
 background:radial-gradient(#fff 50%, #999 100%);
 }
 
@@ -142,7 +142,7 @@ margin-bottom:0vw;
 }
 
 #opciones {
-font-size:3vw;
+font-size:2.8vw;
 color:#fee;
 margin:1vw;
 }
@@ -164,5 +164,11 @@ margin-left:1vw;
 margin-top:4vh;
 }
 
+.pagAtual {
+background:rgba(115,30,34,1);
+}
 
-
+.pexe {
+font-style:italic;
+scale:90%;
+}
