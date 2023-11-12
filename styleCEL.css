@@ -36,7 +36,7 @@ border-right:0.5vw solid #912;
 /* produtos */
 
 #comidas {
-height:42vw;
+height:20vh;
 margin:0.5%;
 margin-bottom:-1vw;
 padding:0.2vw;
@@ -46,7 +46,7 @@ border:0.3vw solid #dc523c;
 }
 
 #bebidas {
-height:42vw;
+height:20vh;
 margin:0.5%;
 padding:0.2vw;
 background: linear-gradient(180deg, rgba(214,166,75,1) 0%,rgba(220,82,60,1) 35%,rgba(102,34,34,1) 85%);
@@ -126,7 +126,7 @@ border:0.2vw solid #dc523c;
 
 
 p {
-font-size:4vw;
+font-size:2.5vh;
 font-weight:600;
 color:#000;
 margin-left:1vw;
