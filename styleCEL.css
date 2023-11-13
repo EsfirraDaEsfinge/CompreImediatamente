@@ -14,10 +14,12 @@ border:1vh solid #912;
 }
 
 #left {
-min-height:4vh;
+min-height:4.5vh;
 background:linear-gradient(180deg, #4C505E 0%, #1F1621 100%);
 border-right:0.5vw solid #912;
 border-left:0.5vw solid #912;
+padding-bottom:1vh;
+padding-top:0.5vh;
 }
 
 #mid {
@@ -155,7 +157,7 @@ margin-top:4vh;
 }
 
 #img2 {
-height:7vw;
+height:4vh;
 width:8vw;
 border:2px groove #fff;
 margin:1vw;
