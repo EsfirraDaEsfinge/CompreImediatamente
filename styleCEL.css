@@ -14,7 +14,7 @@ border:1vh solid #912;
 }
 
 #left {
-min-height:4.5vh;
+display:flex;
 background:linear-gradient(180deg, #4C505E 0%, #1F1621 100%);
 border-right:0.5vw solid #912;
 border-left:0.5vw solid #912;
@@ -175,4 +175,13 @@ zoom:75%;
 
 .gordura {
 width:21vw;
+}
+
+#paragrafinho {
+display:flex;
+background: linear-gradient(180deg, rgba(214,166,75,1) 0%,rgba(220,82,60,1) 35%,rgba(102,34,34,1) 85%);
+border-radius:2vw;
+border:0.3vw solid #dc523c;
+padding-top:1vh;
+padding-bottom:1vh;
 }
